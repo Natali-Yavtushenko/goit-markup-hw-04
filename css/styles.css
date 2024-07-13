@@ -45,6 +45,8 @@ a {
 .header-navigation {
   display: flex;
   align-items: center;
+  position: relative;
+  padding: 24px 0;
 }
 
 .header-logo {
@@ -86,6 +88,7 @@ a {
 }
 .header-menu-link.current {
   position: relative;
+  color: #404bbf;
 }
 
 .header-menu-link.current::after {
@@ -151,8 +154,11 @@ a {
     ),
     url(../images/img10.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title {
   font-weight: 700;
@@ -226,6 +232,10 @@ a {
 }
 .mission-item {
   max-width: calc((100% - 3 * 24px) / 4);
+}
+.container-icon {
+  width: 264px;
+  height: 112px;
 }
 
 .mission-subtitle {
