@@ -470,11 +470,6 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-.footer-soc {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
 
 .container-soc {
   display: flex;
